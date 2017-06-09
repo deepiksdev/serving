@@ -33,5 +33,6 @@ cc_binary(
         "@grpc//:grpc++",
         "@org_tensorflow//tensorflow/core:framework",
         "@protobuf//:protobuf_lite",
+        "@curl//:curl",
     ],
 )
